@@ -9,11 +9,49 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Android</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">190,402</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Android</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num attn">2</td><td class="num">196,384</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Android &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.chowbotics.automation.chowapp.tests.WalkThroughSuite</td><td><a href="#m0">verifyNextFunctionlity</a></td><td rowspan="1">1592309956309</td><td rowspan="1">37151</td></tr><tr><th colspan="4">Android &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.chowbotics.automation.chowapp.tests.HomeSuite</td><td><a href="#m1">verifyRobotIsPaired</a></td><td rowspan="1">1592310038569</td><td rowspan="1">21772</td></tr><tr class="passedeven"><td><a href="#m2">verifyRobotPairCancel</a></td><td rowspan="1">1592310081353</td><td rowspan="1">17708</td></tr><tr class="passedodd"><td rowspan="1">com.chowbotics.automation.chowapp.tests.WalkThroughSuite</td><td><a href="#m3">verifySkipFunctionlity</a></td><td rowspan="1">1592310009380</td><td rowspan="1">14058</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Android &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.chowbotics.automation.chowapp.tests.HomeSuite</td><td><a href="#m0">verifyRobotIsPaired</a></td><td rowspan="1">1592313179068</td><td rowspan="1">36438</td></tr><tr class="failedodd"><td rowspan="1">com.chowbotics.automation.chowapp.tests.WalkThroughSuite</td><td><a href="#m1">verifyNextFunctionlity</a></td><td rowspan="1">1592313095677</td><td rowspan="1">35682</td></tr><tr><th colspan="4">Android &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.chowbotics.automation.chowapp.tests.HomeSuite</td><td><a href="#m2">verifyRobotPairCancel</a></td><td rowspan="1">1592313236811</td><td rowspan="1">17660</td></tr><tr class="passedodd"><td rowspan="1">com.chowbotics.automation.chowapp.tests.WalkThroughSuite</td><td><a href="#m3">verifySkipFunctionlity</a></td><td rowspan="1">1592313147282</td><td rowspan="1">13976</td></tr></tbody>
 </table>
-<h2>Android</h2><h3 id="m0">com.chowbotics.automation.chowapp.tests.WalkThroughSuite#verifyNextFunctionlity</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">This is the sample screenshot<br/><a href='C:\Users\91904\eclipse-workspace\ChowAppAutomation_2\Screenshots\Android_null\2020-06-16-17-48-28\WalkThroughSuite\verifyNextFunctionlity.png'> <img src='C:\Users\91904\eclipse-workspace\ChowAppAutomation_2\Screenshots\Android_null\2020-06-16-17-48-28\WalkThroughSuite\verifyNextFunctionlity.png' height='400' width='400'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //*[@text=&apos;LET&apos;S START&apos;]}) (tried for 20 second(s) with 500 milliseconds interval)
+<h2>Android</h2><h3 id="m0">com.chowbotics.automation.chowapp.tests.HomeSuite#verifyRobotIsPaired</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">This is the sample screenshot<br/><a href='D:\New folder\MobileAutomation\Screenshots\Android_Mi A1\2020-06-16-18-40-58\HomeSuite\verifyRobotIsPaired.png'> <img src='D:\New folder\MobileAutomation\Screenshots\Android_Mi A1\2020-06-16-18-40-58\HomeSuite\verifyRobotIsPaired.png' height='400' width='400'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchElementException: Can&apos;t locate an element by this strategy: By.chained({By.xpath: //*[@text=&apos;Salad Bowls&apos;]})
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:126)
+	at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.intercept(InterceptorOfASingleElement.java:59)
+	at io.appium.java_client.android.AndroidElement$$EnhancerByCGLIB$$b598166c.isDisplayed(&lt;generated&gt;)
+	at com.chowbotics.automation.chowapp.pages.HomeScreen.verifyHeaders(HomeScreen.java:63)
+	at com.chowbotics.automation.chowapp.tests.HomeSuite.verifyRobotIsPaired(HomeSuite.java:23)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1510)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@344d4458 (tried for 1 second(s) with 500 milliseconds interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:119)
+	... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({By.xpath: //*[@text=&apos;Salad Bowls&apos;]})
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;LAPTOP-NBO2FS7F&apos;, ip: &apos;192.168.149.2&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;14.0.1&apos;
+Driver info: driver.version: AndroidDriver
+	at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:74)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:50)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:57)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$0(AppiumElementLocator.java:120)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:172)
+	at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:1)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+	... 29 more
+... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.chowbotics.automation.chowapp.tests.WalkThroughSuite#verifyNextFunctionlity</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">This is the sample screenshot<br/><a href='D:\New folder\MobileAutomation\Screenshots\Android_Mi A1\2020-06-16-18-40-58\WalkThroughSuite\verifyNextFunctionlity.png'> <img src='D:\New folder\MobileAutomation\Screenshots\Android_Mi A1\2020-06-16-18-40-58\WalkThroughSuite\verifyNextFunctionlity.png' height='400' width='400'/> </a></div></td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Located by By.chained({By.xpath: //*[@text=&apos;LET&apos;S START&apos;]}) (tried for 20 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at com.chowbotics.automation.chowapp.base.WaitsAndActions.waitForVisibility(WaitsAndActions.java:31)
@@ -35,7 +73,7 @@ Caused by: org.openqa.selenium.NoSuchElementException: Can&apos;t locate an elem
 	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:297)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 27 more
-Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@8feec38 (tried for 1 second(s) with 500 milliseconds interval)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@1cde2128 (tried for 1 second(s) with 500 milliseconds interval)
 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:304)
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
 	at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:99)
@@ -62,7 +100,6 @@ Driver info: driver.version: AndroidDriver
 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
 	... 36 more
 ... Removed 18 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.chowbotics.automation.chowapp.tests.HomeSuite#verifyRobotIsPaired</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m2">com.chowbotics.automation.chowapp.tests.HomeSuite#verifyRobotPairCancel</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 <h3 id="m3">com.chowbotics.automation.chowapp.tests.WalkThroughSuite#verifySkipFunctionlity</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>

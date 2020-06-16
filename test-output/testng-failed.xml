@@ -16,6 +16,15 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.chowbotics.automation.chowapp.tests.WalkThroughSuite -->
+      <class name="com.chowbotics.automation.chowapp.tests.HomeSuite">
+        <methods>
+          <include name="beforeMethod"/>
+          <include name="verifyRobotIsPaired"/>
+          <include name="verifyAppiumRunning"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.chowbotics.automation.chowapp.tests.HomeSuite -->
     </classes>
   </test> <!-- Android(failed) -->
 </suite> <!-- Failed suite [Suite] -->

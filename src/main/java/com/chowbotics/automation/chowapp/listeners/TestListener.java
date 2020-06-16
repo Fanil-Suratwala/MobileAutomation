@@ -47,7 +47,7 @@ public class TestListener implements ITestListener {
 		Map<String, String> params = new HashMap<String, String>();
 		params = result.getTestContext().getCurrentXmlTest().getAllParameters();
 
-		String imagePath = "Screenshots" + File.separator + params.get("platformName") + "_" + params.get("deviceName")
+		String imagePath = "Screenshots" + File.separator + BaseTest.platform + "_" + BaseTest.deviceName
 				+ File.separator + BaseTest.dateTime + File.separator
 				+ result.getTestClass().getRealClass().getSimpleName() + File.separator + result.getName() + ".png";
 

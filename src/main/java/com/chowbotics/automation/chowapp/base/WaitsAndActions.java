@@ -23,7 +23,7 @@ public class WaitsAndActions {
 	public WaitsAndActions(AppiumDriver<MobileElement> driver) {
 		wait = new WebDriverWait(driver, 20);
 		this.driver = driver;
-		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(20)), this);
+		PageFactory.initElements(new AppiumFieldDecorator(driver, Duration.ofSeconds(40)), this);
 	}
 
 	public void waitForVisibility(MobileElement e) {
