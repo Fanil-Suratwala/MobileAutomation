@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="com.chowbotics.automation.chowapp.listeners.TestListener"/>
+  </listeners>
+  <test thread-count="5" parallel="tests" name="Android(failed)">
+    <parameter name="platformName" value="Android"/>
+    <classes>
+      <class name="com.chowbotics.automation.chowapp.tests.WalkThroughSuite">
+        <methods>
+          <include name="verifyNextFunctionlity"/>
+          <include name="beforeMethod"/>
+          <include name="verifyAppiumRunning"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.chowbotics.automation.chowapp.tests.WalkThroughSuite -->
+    </classes>
+  </test> <!-- Android(failed) -->
+</suite> <!-- Failed suite [Suite] -->

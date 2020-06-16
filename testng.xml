@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests">
+	<test name="Android">
+		<listeners>
+			<listener
+				class-name="com.chowbotics.automation.chowapp.listeners.TestListener" />
+		</listeners>
+		<parameter name="platformName" value="Android" />
+		<classes>
+			<class
+				name="com.chowbotics.automation.chowapp.tests.WalkThroughSuite"></class>
+			<class name="com.chowbotics.automation.chowapp.tests.HomeSuite"></class>
+		</classes>
+	</test>
+</suite>

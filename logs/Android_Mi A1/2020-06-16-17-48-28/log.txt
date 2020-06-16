@@ -1,0 +1,42 @@
+info:com.chowbotics.automation.chowapp.listeners.TestListener:83:[WalkThroughSuite]
+info:com.chowbotics.automation.chowapp.listeners.TestListener:85:verifyNextFunctionlity
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to ChowApp']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='NEXT']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='LET'S START']})
+info:com.chowbotics.automation.chowapp.listeners.TestListener:83:[WalkThroughSuite]
+info:com.chowbotics.automation.chowapp.listeners.TestListener:85:verifySkipFunctionlity
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to ChowApp']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to #FreshForAll']})
+info:com.chowbotics.automation.chowapp.listeners.TestListener:83:[HomeSuite]
+info:com.chowbotics.automation.chowapp.listeners.TestListener:85:verifyRobotIsPaired
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to ChowApp']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to #FreshForAll']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='PAIR']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='PAIR']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //android.widget.EditText})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:48:entering text AAAAA on element : Located by By.chained({By.xpath: //android.widget.EditText})
+info:com.chowbotics.automation.chowapp.listeners.TestListener:83:[HomeSuite]
+info:com.chowbotics.automation.chowapp.listeners.TestListener:85:verifyRobotPairCancel
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to ChowApp']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='Skip']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to #FreshForAll']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='PAIR']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //*[@text='PAIR']})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:42:clicking the element : Located by By.chained({By.xpath: //android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.view.ViewGroup/android.view.ViewGroup[2]/android.view.ViewGroup[1]/android.view.ViewGroup})
+info:com.chowbotics.automation.chowapp.base.WaitsAndActions:30:waiting for visibility of element : Located by By.chained({By.xpath: //*[@text='Welcome to #FreshForAll']})
